@@ -1,0 +1,8 @@
+2024-06-02 09:54:57,971 TRACE com.arun.controller.DummyController [http-nio-4000-exec-3] start of getMessage method
+2024-06-02 09:54:57,971 TRACE com.arun.controller.DummyController [http-nio-4000-exec-3] start of getMessage method
+2024-06-02 09:54:57,972 WARN com.arun.controller.DummyController [http-nio-4000-exec-3] user name is null
+2024-06-02 09:54:57,972 WARN com.arun.controller.DummyController [http-nio-4000-exec-3] user name is null
+2024-06-02 09:54:57,973 ERROR com.arun.controller.DummyController [http-nio-4000-exec-3] Exception occured in getMessage method:user name is not provided in input
+2024-06-02 09:54:57,973 ERROR com.arun.controller.DummyController [http-nio-4000-exec-3] Exception occured in getMessage method:user name is not provided in input
+2024-06-02 09:54:57,973 DEBUG com.arun.controller.DummyController [http-nio-4000-exec-3] getMessage method ended due to exception
+2024-06-02 09:54:57,973 DEBUG com.arun.controller.DummyController [http-nio-4000-exec-3] getMessage method ended due to exception

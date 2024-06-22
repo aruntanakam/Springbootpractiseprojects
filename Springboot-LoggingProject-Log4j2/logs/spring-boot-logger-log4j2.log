@@ -1,0 +1,23 @@
+2024-06-02 12:30:16,457 INFO o.s.b.StartupInfoLogger [restartedMain] Starting SpringbootLoggingProjectApplication using Java 17.0.8 with PID 6844 (D:\spring_boot_projects\Springboot-LoggingProject-Log4j2\target\classes started by Arunkumar in D:\spring_boot_projects\Springboot-LoggingProject-Log4j2)
+2024-06-02 12:30:16,457 INFO o.s.b.StartupInfoLogger [restartedMain] Starting SpringbootLoggingProjectApplication using Java 17.0.8 with PID 6844 (D:\spring_boot_projects\Springboot-LoggingProject-Log4j2\target\classes started by Arunkumar in D:\spring_boot_projects\Springboot-LoggingProject-Log4j2)
+2024-06-02 12:30:16,469 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-06-02 12:30:16,469 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-06-02 12:30:16,471 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-06-02 12:30:16,471 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-06-02 12:30:16,537 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-02 12:30:16,538 INFO o.s.b.l.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-02 12:30:17,515 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 4000 (http)
+2024-06-02 12:30:17,530 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-4000"]
+2024-06-02 12:30:17,532 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2024-06-02 12:30:17,532 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-02 12:30:17,583 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-06-02 12:30:17,584 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1044 ms
+2024-06-02 12:30:17,954 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2024-06-02 12:30:17,976 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-4000"]
+2024-06-02 12:30:18,000 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 4000 (http) with context path '/'
+2024-06-02 12:30:18,013 INFO o.s.b.StartupInfoLogger [restartedMain] Started SpringbootLoggingProjectApplication in 2.083 seconds (process running for 3.379)
+2024-06-02 12:30:18,013 INFO o.s.b.StartupInfoLogger [restartedMain] Started SpringbootLoggingProjectApplication in 2.083 seconds (process running for 3.379)
+2024-06-02 12:30:18,018 DEBUG c.a.SpringbootLoggingProjectApplication [restartedMain] Application  started successfully at address:http://192.168.1.2:4000
+2024-06-02 12:30:18,018 DEBUG c.a.SpringbootLoggingProjectApplication [restartedMain] Application  started successfully at address:http://192.168.1.2:4000
+2024-06-02 16:43:06,937 INFO o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(80)-127.0.0.1] Application shutdown requested.
+2024-06-02 16:43:06,944 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(80)-127.0.0.1] Stopping ProtocolHandler ["http-nio-4000"]

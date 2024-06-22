@@ -1,0 +1,2 @@
+2024-06-02 09:55:15,721 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(51)-127.0.0.1] Application shutdown requested.
+2024-06-02 09:55:15,724 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(51)-127.0.0.1] Stopping ProtocolHandler ["http-nio-4000"]

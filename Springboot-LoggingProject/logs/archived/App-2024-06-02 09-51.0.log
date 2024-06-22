@@ -1,0 +1,11 @@
+2024-06-02 09:51:49,829 INFO org.apache.juli.logging.DirectJDKLog [http-nio-4000-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-02 09:51:49,831 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-4000-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-06-02 09:51:49,832 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-4000-exec-1] Completed initialization in 1 ms
+2024-06-02 09:51:49,835 TRACE com.arun.controller.DummyController [http-nio-4000-exec-1] start of getMessage method
+2024-06-02 09:51:49,835 TRACE com.arun.controller.DummyController [http-nio-4000-exec-1] start of getMessage method
+2024-06-02 09:51:49,836 WARN com.arun.controller.DummyController [http-nio-4000-exec-1] user name is null
+2024-06-02 09:51:49,836 WARN com.arun.controller.DummyController [http-nio-4000-exec-1] user name is null
+2024-06-02 09:51:49,836 ERROR com.arun.controller.DummyController [http-nio-4000-exec-1] Exception occured in getMessage method:user name is not provided in input
+2024-06-02 09:51:49,836 ERROR com.arun.controller.DummyController [http-nio-4000-exec-1] Exception occured in getMessage method:user name is not provided in input
+2024-06-02 09:51:49,837 DEBUG com.arun.controller.DummyController [http-nio-4000-exec-1] getMessage method ended due to exception
+2024-06-02 09:51:49,837 DEBUG com.arun.controller.DummyController [http-nio-4000-exec-1] getMessage method ended due to exception
