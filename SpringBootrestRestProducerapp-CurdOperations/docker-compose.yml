@@ -1,0 +1,46 @@
+
+
+
+services:
+  app:
+   image: aruntanakam/restapp:sixth-image
+   
+   ports:
+     - "4000:4000"
+     
+   environment:
+     - DB_HOST=db
+     - LOGICAL_DATABASE=restappdb
+     - DB_USERNAME=restuser
+     - DB_PASSWORD=restuser@123
+     
+   depends_on:
+     db:
+      condition: service_healthy
+     
+   networks:
+      - rest_app_network
+      
+  db:
+   image: mysql:latest
+   
+   environment:
+     - MYSQL_ROOT_PASSWORD=root
+     - MYSQL_DATABASE=restappdb
+     - MYSQL_USER=restuser
+     - MYSQL_PASSWORD=restuser@123
+     
+   networks:
+     - rest_app_network
+     
+   healthcheck:
+     test: ["CMD-SHELL", "mysqladmin ping -h localhost"]
+     interval: 10s
+     timeout: 5s
+     retries: 3 
+     
+networks:
+  rest_app_network:
+    driver: bridge
+   
+   
