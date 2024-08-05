@@ -1,0 +1,24 @@
+2024-08-02 12:24:09,028 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringBootrestRestProducerappCurdOperationsApplicationTests using Java 17.0.8 with PID 2668 (started by Arunkumar in D:\spring_boot_projects\SpringBootrestRestProducerapp-CurdOperations)
+2024-08-02 12:24:09,028 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringBootrestRestProducerappCurdOperationsApplicationTests using Java 17.0.8 with PID 2668 (started by Arunkumar in D:\spring_boot_projects\SpringBootrestRestProducerapp-CurdOperations)
+2024-08-02 12:24:09,036 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-08-02 12:24:09,036 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-08-02 12:24:09,039 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-08-02 12:24:09,039 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-08-02 12:24:11,230 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-02 12:24:11,369 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 113 ms. Found 1 JPA repository interface.
+2024-08-02 12:24:12,421 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-02 12:24:12,580 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-02 12:24:12,665 INFO org.hibernate.cache.internal.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-08-02 12:24:13,668 INFO org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-02 12:24:13,732 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2024-08-02 12:24:14,621 INFO com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@b267745
+2024-08-02 12:24:14,626 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-08-02 12:24:14,796 WARN org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl [main] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-02 12:24:16,672 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-02 12:24:16,772 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-02 12:24:17,826 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-02 12:24:18,940 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringBootrestRestProducerappCurdOperationsApplicationTests in 11.273 seconds (process running for 14.007)
+2024-08-02 12:24:18,940 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringBootrestRestProducerappCurdOperationsApplicationTests in 11.273 seconds (process running for 14.007)
+2024-08-02 12:24:20,441 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-02 12:24:20,446 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-08-02 12:24:20,473 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.

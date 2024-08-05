@@ -4,9 +4,13 @@ WORKDIR /app
 
 COPY target/restapp.war /app/restapp.war
 
-ENV DB_URL=jdbc:mysql://localhost:3306/restapp
+ENV DB_HOST=localhost
 
-ENV DB_USERNAME=restuser
+ENV DB_USERNAME=retuser
+
+ENV DB_PASSWORD=restuser@123
+
+ENV lOGICAL_DATABASE=restappdb
 
 
 EXPOSE 4000

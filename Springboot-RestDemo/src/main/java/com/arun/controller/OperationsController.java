@@ -99,8 +99,8 @@ public class OperationsController {
 	  }
 	  
 	  
-	  @GetMapping(value={"/report/{eno}/{name}","/report/{eno}"})
-	  public String getvalues(@PathVariable(value="eno")String  no,@PathVariable(required = false) String name)
+	  @GetMapping(value={"/report/{eno}/{name}","/report/{name}","/report/{eno}"})
+	  public String getvalues(@PathVariable(value="eno",required=false)String  no,@PathVariable(required = false) String name)
 	  {
 		  return no+" "+name;  
 	  }
